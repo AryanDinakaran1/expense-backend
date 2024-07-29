@@ -13,4 +13,18 @@ This is a Django project that includes functionality for managing users and expe
 
    Create a virtual environment if you haven't already:
    ```bash
-   python3 -m venv venv
+   1. python3 -m venv venv
+   2. source venv/bin/activate/
+
+
+2. **Install Dependencies**
+
+   Install all the dependencies from the requirements.txt
+   ```bash
+   pip install -r requirements.txt
+
+3. **LAUNCH!!!**
+
+   Run the project!
+   ```bash
+   python3 manage.py runserver
